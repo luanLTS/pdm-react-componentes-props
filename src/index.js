@@ -9,7 +9,7 @@ const App = () => {
     return (
         <div className='container border rounded mt-2'>
             <div className='row border-bottom m-2'>
-                <h1 className='display-5 text-center'>Seus Pedidos</h1>
+                <h1 className='display-5 text-center'>Seus pedidos</h1>
             </div>
 
             
