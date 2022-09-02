@@ -7,15 +7,14 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import { Pedido } from './components/Produto'
 import { Cartao } from './components/Cartao';
 import { FeedBack } from './components/Feedback'
-import { Alert } from 'bootstrap'
 
 
 const App = () => {
 
     const textoOk = "Já chegou";
     const textoNOk = "Não chegou";
-    const funcaoOk = () => Alert("Agradecemos a confirmação");
-    const funcaoNOk = () => Alert("Vamos verificar o ocorrido");
+    const funcaoOk = () => alert("Agradecemos a confirmação");
+    const funcaoNOk = () => alert("Vamos verificar o ocorrido");
     const feedback = <FeedBack
         textoOk={textoOk}
         textoNOk={textoNOk}

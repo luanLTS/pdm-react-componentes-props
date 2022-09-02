@@ -1,18 +1,18 @@
-export const FeedBack = ({funcaoOk, funcaoNOk, textoOk, textoNOk}) => (
+export const FeedBack = (props) => (
     <div className="d-flex justify-content-evenly m-2">
         <button
             type="button"
             className="btn btn-primary"
-            onclick={funcaoOk}
+            onClick={props.funcaoOk}
         >
-            {textoOk}
+            {props.textoOk}
         </button>
         <button
             type="button"
             className="btn btn-danger"
-            onclick={funcaoNOk}
+            onClick={props.funcaoNok}
         >
-            {textoNOk}
+            {props.textoNOk}
         </button>
     </div>
 )
